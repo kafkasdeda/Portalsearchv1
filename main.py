@@ -14,6 +14,13 @@ from clarifai_grpc.grpc.api.status import status_pb2, status_code_pb2
 import mysql.connector
 from mysql.connector import Error
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 ## Construct the communications channel and the object stub to call requests on.
 # Note: You can also use a secure (encrypted) ClarifaiChannel.get_grpc_channel() however
 # it is currently not possible to use it with the latest gRPC version
