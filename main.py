@@ -147,8 +147,6 @@ if uimage is not  None:
                 )pip
             ]
         ,
-        page=2, 
-        per_page=20),
         metadata=metadata
         )
     else:
