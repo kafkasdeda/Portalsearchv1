@@ -1,4 +1,4 @@
-mport base64
+import base64
 from io import StringIO
 import streamlit as st
 from PIL import Image
