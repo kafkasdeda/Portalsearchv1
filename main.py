@@ -146,7 +146,7 @@ if uimage is not  None:
                     )
                 )
             ]
-        ,
+        ),
         metadata=metadata
         )
     else:
