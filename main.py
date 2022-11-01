@@ -144,7 +144,7 @@ if uimage is not  None:
                         )
                     ] 
                     )
-                )pip
+                )
             ]
         ,
         metadata=metadata
