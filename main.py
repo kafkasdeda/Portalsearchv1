@@ -11,9 +11,9 @@ from clarifai_grpc.grpc.api import resources_pb2, service_pb2, service_pb2_grpc
 from clarifai_grpc.grpc.api.status import status_pb2, status_code_pb2
 
 hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
 .css-1q1n0ol.egzxvld0
 {
    visibility: hidden; 
@@ -23,10 +23,9 @@ hide_streamlit_style = """
    visibility: hidden; 
 }
 
-            </style>
-            """
+</style> """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 
 ## Construct the communications channel and the object stub to call requests on.
 # Note: You can also use a secure (encrypted) ClarifaiChannel.get_grpc_channel() however
