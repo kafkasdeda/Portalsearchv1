@@ -45,7 +45,7 @@ def load_image(uimage):
     return img
 
 
-st.title("Please upload an image from left panel using \"Browse files\" button.")
+st.title("Please upload an image from left panel using \"Browse files\" button...")
 uimage = st.sidebar.file_uploader("",type=["jpeg","jpg","png","webp"])  
 #uimage = st.sidebar.camera_input("Take a picture")  
 
