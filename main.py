@@ -20,7 +20,8 @@ hide_streamlit_style = """
 }
 .viewerBadge_container__1QSob
 {
-   visibility: hidden; 
+   visibility: hidden;
+   display: none;
 }
 
 </style> """
