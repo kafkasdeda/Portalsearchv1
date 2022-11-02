@@ -13,7 +13,7 @@ from clarifai_grpc.grpc.api.status import status_pb2, status_code_pb2
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
+#footer {visibility: hidden;}
 .css-1q1n0ol.egzxvld0
 {
    visibility: hidden; 
